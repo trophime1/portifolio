@@ -7,7 +7,7 @@ export default function Language() {
         {code:'Sg', name:'Sign Language', level:'Good'},
     ];
   return (
-    <section data-aos='fade-up' data-aos-delay='400' className='flex flex-wrap md:flex-nowrap items-center justify-center gap-10 md:gap-20 h-[300px] text-blue-950 mt-11 '>
+    <section data-aos='fade-up' id='language' data-aos-delay='400' className='flex flex-wrap md:flex-nowrap items-center justify-center gap-10 md:gap-20 h-[300px] text-blue-950 mt-11 '>
         <div className='grid grid-cols-2 gap-10 md:flex md:gap-20'>
             {
                 languages.map((language, index)=>(
