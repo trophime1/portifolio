@@ -21,7 +21,7 @@ export default function Hero() {
                      className='absolute top-[350px] left-44 md:top-[-30px] md:left-[450px] transform
                     -translate-x-1/2 -translate-y-1/2 w-20 h-20'/> */}
                 <h1 className='title-font sm:text-4xl text-4xl mb-4 font-bold text-white'>Hi! I'm Trophime KARASISI</h1>
-                <p className='mb-8 leading-relaxed text-xl'>
+                {/* <p className='mb-8 leading-relaxed text-xl'>
                 Enthusiastic and detail-oriented IT Support Specialist and Developer with 4 years of 
                 experience in helping users solve technical issues and creating efficient, 
                 user-friendly solutions. Skilled at identifying and resolving hardware and software problems,
@@ -29,6 +29,13 @@ export default function Hero() {
                  Proficient in programming, database management, and system integration. Strong communication and problem-solving
                 skills ensure seamless collaboration with users 
                 and teams to maintain and enhance IT systems and deliver impactful solutions.    
+                </p> */}
+                <p className='mb-8 leading-relaxed text-xl'>
+                Highly skilled and solutions-oriented Full Stack Developer with hands-on experience designing, developing, and maintaining dynamic web and mobile applications. 
+                Adept at working across the entire technology stack—from crafting intuitive, responsive frontends with React.js, TypeScript, Tailwind CSS, to building robust, secure backends using Node.js, Express.js, Prisma, 
+                and relational or NoSQL databases like PostgreSQL, MySQL, and MongoDB.
+                 As a Full Stack Developer, I bring deep understanding of both frontend user experience and backend architecture, ensuring seamless interaction, optimized performance, 
+                 and long-term maintainability. Passionate about writing clean, efficient code, improving systems, and delivering impactful digital experiences that solve real-world problems.    
                 </p>
                 <div className='flex justify-center'>
                     <a href={CV} download> 
